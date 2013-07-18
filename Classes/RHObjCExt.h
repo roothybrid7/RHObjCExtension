@@ -14,7 +14,6 @@
 #import "NSDictionary+CoreExt.h"
 #import "NSArray+Enumerable.h"
 #import "NSDictionary+Enumerable.h"
-#import "NSString+HashUtil.h"
 #import "NSString+URLEncode.h"
 #import "NSDictionary+QueryStringBuilder.h"
 #import "NSComparisonPredicate+CoreExt.h"
