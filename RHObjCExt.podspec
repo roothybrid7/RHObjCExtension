@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   #                   * Markdown format.
   #                   * Don't worry about the indent, we strip it!
   #                  DESC
-  s.homepage     = "http://EXAMPLE/RHObjCExt"
+  s.homepage     = "https://github.com/roothybrid7/RHObjCExt"
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 
   # Specify the license type. CocoaPods detects automatically the license file if it is named
@@ -101,5 +101,5 @@ Pod::Spec.new do |s|
 
   # Finally, specify any Pods that this Pod depends on.
   #
-  # s.dependency 'JSONKit', '~> 1.4'
+  s.dependency 'Base64nl', '~> 1.0.2'
 end
