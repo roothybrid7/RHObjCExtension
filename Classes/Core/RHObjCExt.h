@@ -17,7 +17,6 @@
 #import "NSString+URLEncode.h"
 #import "NSDictionary+QueryStringBuilder.h"
 #import "NSComparisonPredicate+CoreExt.h"
-#import "SKProduct+CoreExt.h"
 #import "UIImage+Helper.h"
 #import "UIWebView+CoreExt.h"
 

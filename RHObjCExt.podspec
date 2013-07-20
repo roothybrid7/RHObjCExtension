@@ -11,15 +11,19 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/roothybrid7/RHObjCExt"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Satoshi Ohki" => "roothybrid7@gmail.com" }
-  s.source       = { :git => "https://github.com/roothybrid7/RHObjCExt.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/roothybrid7/RHObjCExt.git", :tag => s.version.to_s }
   s.platform     = :ios, '5.0'
+
   s.subspec 'Core' do |ss|
     ss.source_files = 'Classes'
     ss.exclude_files = 'Classes/Exclude', 'Classes/SKProduct+CoreExt.{h,m}'
   end
-  s.subspec 'SKProduct' do |ss|
+
+  s.subspec 'StoreKit' do |ss|
     ss.source_files = 'Classes/SKProduct+CoreExt.{h,m}'
     ss.frameworks = 'StoreKit'
+    ss.dependency 'RHObjCExt/Core'
   end
+
   s.requires_arc = true
 end
