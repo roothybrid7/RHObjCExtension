@@ -21,6 +21,7 @@
 		06C77690179A627A00BB5A8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C77671179A627A00BB5A8F /* Foundation.framework */; };
 		06C77698179A627A00BB5A8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06C77696179A627A00BB5A8F /* InfoPlist.strings */; };
 		06C7769B179A627A00BB5A8F /* RHObjCExtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C7769A179A627A00BB5A8F /* RHObjCExtTests.m */; };
+		117EC244F0BD4604B24A29E1 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8AB937F3F43D6A1E3ED23 /* libPods-test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		06C77697179A627A00BB5A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06C77699179A627A00BB5A8F /* RHObjCExtTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RHObjCExtTests.h; sourceTree = "<group>"; };
 		06C7769A179A627A00BB5A8F /* RHObjCExtTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RHObjCExtTests.m; sourceTree = "<group>"; };
+		06D2FFBF179AC4F70097C40F /* RHObjCExtTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RHObjCExtTests-Prefix.pch"; sourceTree = "<group>"; };
+		53746DEAF9E845C59B8191D9 /* Pods-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = SOURCE_ROOT; };
+		6AC8AB937F3F43D6A1E3ED23 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 				06C7768E179A627A00BB5A8F /* SenTestingKit.framework in Frameworks */,
 				06C7768F179A627A00BB5A8F /* UIKit.framework in Frameworks */,
 				06C77690179A627A00BB5A8F /* Foundation.framework in Frameworks */,
+				117EC244F0BD4604B24A29E1 /* libPods-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +91,7 @@
 				06C77693179A627A00BB5A8F /* RHObjCExtTests */,
 				06C7766E179A627A00BB5A8F /* Frameworks */,
 				06C7766D179A627A00BB5A8F /* Products */,
+				53746DEAF9E845C59B8191D9 /* Pods-test.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +111,7 @@
 				06C77671179A627A00BB5A8F /* Foundation.framework */,
 				06C77673179A627A00BB5A8F /* CoreGraphics.framework */,
 				06C7768D179A627A00BB5A8F /* SenTestingKit.framework */,
+				6AC8AB937F3F43D6A1E3ED23 /* libPods-test.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +155,7 @@
 			children = (
 				06C77695179A627A00BB5A8F /* RHObjCExtTests-Info.plist */,
 				06C77696179A627A00BB5A8F /* InfoPlist.strings */,
+				06D2FFBF179AC4F70097C40F /* RHObjCExtTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -176,10 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06C776A1179A627A00BB5A8F /* Build configuration list for PBXNativeTarget "RHObjCExtTests" */;
 			buildPhases = (
+				446CF0ED9660499D9E8E3A3C /* Check Pods Manifest.lock */,
 				06C77687179A627A00BB5A8F /* Sources */,
 				06C77688179A627A00BB5A8F /* Frameworks */,
 				06C77689179A627A00BB5A8F /* Resources */,
 				06C7768A179A627A00BB5A8F /* ShellScript */,
+				5568D2146EA145A9AC3EA214 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +263,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		446CF0ED9660499D9E8E3A3C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5568D2146EA145A9AC3EA214 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -384,6 +424,7 @@
 		};
 		06C776A2179A627A00BB5A8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53746DEAF9E845C59B8191D9 /* Pods-test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHObjCExt.app/RHObjCExt";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -391,7 +432,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RHObjCExt/RHObjCExt-Prefix.pch";
+				GCC_PREFIX_HEADER = "RHObjCExtTests/RHObjCExtTests-Prefix.pch";
 				INFOPLIST_FILE = "RHObjCExtTests/RHObjCExtTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -401,6 +442,7 @@
 		};
 		06C776A3179A627A00BB5A8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53746DEAF9E845C59B8191D9 /* Pods-test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHObjCExt.app/RHObjCExt";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -408,7 +450,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RHObjCExt/RHObjCExt-Prefix.pch";
+				GCC_PREFIX_HEADER = "RHObjCExtTests/RHObjCExtTests-Prefix.pch";
 				INFOPLIST_FILE = "RHObjCExtTests/RHObjCExtTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -435,6 +477,7 @@
 				06C776A0179A627A00BB5A8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06C776A1179A627A00BB5A8F /* Build configuration list for PBXNativeTarget "RHObjCExtTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +486,7 @@
 				06C776A3179A627A00BB5A8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

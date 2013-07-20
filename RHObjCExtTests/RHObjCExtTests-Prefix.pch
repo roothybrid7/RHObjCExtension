@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'RHObjCExtTests' target in the
+// 'RHObjCExt' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import "OCMock.h"
+    #define EXP_SHORTHAND
+    #import "Expecta.h"
+#endif
