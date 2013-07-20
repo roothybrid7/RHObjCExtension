@@ -7,6 +7,7 @@
 //
 
 #import "NSDictionary+QueryStringBuilder.h"
+#import "NSString+URLEncode.h"
 
 @implementation NSDictionary (QueryStringBuilder)
 
@@ -23,7 +24,7 @@
             } else {
                 [queryString appendFormat:@"&"];
             }
-            
+
             if (nil != key && nil != value) {
                 [queryString appendFormat:@"%@=%@", [NSString stringByURLEncodingString:key], [NSString stringByURLEncodingString:value]];
             } else if (nil != key) {
@@ -31,7 +32,7 @@
             }
         }
     }
-    
+
     return queryString;
 }
 

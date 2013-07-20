@@ -7,6 +7,7 @@
 //
 
 #import "NSString+CoreExt.h"
+#import "NSArray+Enumerable.h"
 
 @implementation NSString (CoreExt)
 
