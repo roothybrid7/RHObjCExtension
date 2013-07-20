@@ -18,6 +18,12 @@ Pod::Spec.new do |s|
     ss.source_files = 'Classes/Core'
   end
 
+  s.subspec 'UIKit' do |ss|
+    ss.source_files = 'Classes/UIKit'
+    ss.frameworks = 'UIKit'
+    ss.dependency 'RHObjCExt/Core'
+  end
+
   s.subspec 'StoreKit' do |ss|
     ss.source_files = 'Classes/StoreKit'
     ss.frameworks = 'StoreKit'
