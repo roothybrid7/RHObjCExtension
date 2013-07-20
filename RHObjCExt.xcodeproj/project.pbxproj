@@ -20,6 +20,18 @@
 		06C7768F179A627A00BB5A8F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C7766F179A627A00BB5A8F /* UIKit.framework */; };
 		06C77690179A627A00BB5A8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C77671179A627A00BB5A8F /* Foundation.framework */; };
 		06C77698179A627A00BB5A8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 06C77696179A627A00BB5A8F /* InfoPlist.strings */; };
+		06D2FFDF179AC7120097C40F /* NSArray+CoreExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFC5179AC7120097C40F /* NSArray+CoreExt.m */; };
+		06D2FFE0179AC7120097C40F /* NSArray+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFC7179AC7120097C40F /* NSArray+Enumerable.m */; };
+		06D2FFE1179AC7120097C40F /* NSComparisonPredicate+CoreExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFC9179AC7120097C40F /* NSComparisonPredicate+CoreExt.m */; };
+		06D2FFE2179AC7120097C40F /* NSDictionary+CoreExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFCB179AC7120097C40F /* NSDictionary+CoreExt.m */; };
+		06D2FFE3179AC7120097C40F /* NSDictionary+Enumerable.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFCD179AC7120097C40F /* NSDictionary+Enumerable.m */; };
+		06D2FFE4179AC7120097C40F /* NSDictionary+QueryStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFCF179AC7120097C40F /* NSDictionary+QueryStringBuilder.m */; };
+		06D2FFE5179AC7120097C40F /* NSString+CoreExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFD1179AC7120097C40F /* NSString+CoreExt.m */; };
+		06D2FFE6179AC7120097C40F /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFD3179AC7120097C40F /* NSString+URLEncode.m */; };
+		06D2FFE7179AC7120097C40F /* SKProduct+CoreExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFD8179AC7120097C40F /* SKProduct+CoreExt.m */; };
+		06D2FFE8179AC7120097C40F /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFDC179AC7120097C40F /* UIImage+Helper.m */; };
+		06D2FFE9179AC7120097C40F /* UIWebView+CoreExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFDE179AC7120097C40F /* UIWebView+CoreExt.m */; };
+		06D7C343179AC7E500C6F5D1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D7C342179AC7E500C6F5D1 /* StoreKit.framework */; };
 		117EC244F0BD4604B24A29E1 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8AB937F3F43D6A1E3ED23 /* libPods-test.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +64,31 @@
 		06C77695179A627A00BB5A8F /* RHObjCExtTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHObjCExtTests-Info.plist"; sourceTree = "<group>"; };
 		06C77697179A627A00BB5A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06D2FFBF179AC4F70097C40F /* RHObjCExtTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RHObjCExtTests-Prefix.pch"; sourceTree = "<group>"; };
+		06D2FFC4179AC7120097C40F /* NSArray+CoreExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CoreExt.h"; sourceTree = "<group>"; };
+		06D2FFC5179AC7120097C40F /* NSArray+CoreExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CoreExt.m"; sourceTree = "<group>"; };
+		06D2FFC6179AC7120097C40F /* NSArray+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Enumerable.h"; sourceTree = "<group>"; };
+		06D2FFC7179AC7120097C40F /* NSArray+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Enumerable.m"; sourceTree = "<group>"; };
+		06D2FFC8179AC7120097C40F /* NSComparisonPredicate+CoreExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSComparisonPredicate+CoreExt.h"; sourceTree = "<group>"; };
+		06D2FFC9179AC7120097C40F /* NSComparisonPredicate+CoreExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSComparisonPredicate+CoreExt.m"; sourceTree = "<group>"; };
+		06D2FFCA179AC7120097C40F /* NSDictionary+CoreExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CoreExt.h"; sourceTree = "<group>"; };
+		06D2FFCB179AC7120097C40F /* NSDictionary+CoreExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CoreExt.m"; sourceTree = "<group>"; };
+		06D2FFCC179AC7120097C40F /* NSDictionary+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Enumerable.h"; sourceTree = "<group>"; };
+		06D2FFCD179AC7120097C40F /* NSDictionary+Enumerable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Enumerable.m"; sourceTree = "<group>"; };
+		06D2FFCE179AC7120097C40F /* NSDictionary+QueryStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryStringBuilder.h"; sourceTree = "<group>"; };
+		06D2FFCF179AC7120097C40F /* NSDictionary+QueryStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryStringBuilder.m"; sourceTree = "<group>"; };
+		06D2FFD0179AC7120097C40F /* NSString+CoreExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CoreExt.h"; sourceTree = "<group>"; };
+		06D2FFD1179AC7120097C40F /* NSString+CoreExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CoreExt.m"; sourceTree = "<group>"; };
+		06D2FFD2179AC7120097C40F /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		06D2FFD3179AC7120097C40F /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		06D2FFD4179AC7120097C40F /* RHObjCExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHObjCExt.h; sourceTree = "<group>"; };
+		06D2FFD7179AC7120097C40F /* SKProduct+CoreExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKProduct+CoreExt.h"; sourceTree = "<group>"; };
+		06D2FFD8179AC7120097C40F /* SKProduct+CoreExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKProduct+CoreExt.m"; sourceTree = "<group>"; };
+		06D2FFDA179AC7120097C40F /* RHObjCExtUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHObjCExtUIKit.h; sourceTree = "<group>"; };
+		06D2FFDB179AC7120097C40F /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		06D2FFDC179AC7120097C40F /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		06D2FFDD179AC7120097C40F /* UIWebView+CoreExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+CoreExt.h"; sourceTree = "<group>"; };
+		06D2FFDE179AC7120097C40F /* UIWebView+CoreExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+CoreExt.m"; sourceTree = "<group>"; };
+		06D7C342179AC7E500C6F5D1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		53746DEAF9E845C59B8191D9 /* Pods-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = SOURCE_ROOT; };
 		6AC8AB937F3F43D6A1E3ED23 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D7C343179AC7E500C6F5D1 /* StoreKit.framework in Frameworks */,
 				06C77670179A627A00BB5A8F /* UIKit.framework in Frameworks */,
 				06C77672179A627A00BB5A8F /* Foundation.framework in Frameworks */,
 				06C77674179A627A00BB5A8F /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +122,7 @@
 		06C77663179A627A00BB5A8F = {
 			isa = PBXGroup;
 			children = (
+				06D2FFC2179AC7120097C40F /* Classes */,
 				06C77675179A627A00BB5A8F /* RHObjCExt */,
 				06C77693179A627A00BB5A8F /* RHObjCExtTests */,
 				06C7766E179A627A00BB5A8F /* Frameworks */,
@@ -104,6 +143,7 @@
 		06C7766E179A627A00BB5A8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				06D7C342179AC7E500C6F5D1 /* StoreKit.framework */,
 				06C7766F179A627A00BB5A8F /* UIKit.framework */,
 				06C77671179A627A00BB5A8F /* Foundation.framework */,
 				06C77673179A627A00BB5A8F /* CoreGraphics.framework */,
@@ -153,6 +193,69 @@
 				06D2FFBF179AC4F70097C40F /* RHObjCExtTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06D2FFC2179AC7120097C40F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				06D2FFC3179AC7120097C40F /* Core */,
+				06D2FFD5179AC7120097C40F /* Exclude */,
+				06D2FFD6179AC7120097C40F /* StoreKit */,
+				06D2FFD9179AC7120097C40F /* UIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		06D2FFC3179AC7120097C40F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				06D2FFC4179AC7120097C40F /* NSArray+CoreExt.h */,
+				06D2FFC5179AC7120097C40F /* NSArray+CoreExt.m */,
+				06D2FFC6179AC7120097C40F /* NSArray+Enumerable.h */,
+				06D2FFC7179AC7120097C40F /* NSArray+Enumerable.m */,
+				06D2FFC8179AC7120097C40F /* NSComparisonPredicate+CoreExt.h */,
+				06D2FFC9179AC7120097C40F /* NSComparisonPredicate+CoreExt.m */,
+				06D2FFCA179AC7120097C40F /* NSDictionary+CoreExt.h */,
+				06D2FFCB179AC7120097C40F /* NSDictionary+CoreExt.m */,
+				06D2FFCC179AC7120097C40F /* NSDictionary+Enumerable.h */,
+				06D2FFCD179AC7120097C40F /* NSDictionary+Enumerable.m */,
+				06D2FFCE179AC7120097C40F /* NSDictionary+QueryStringBuilder.h */,
+				06D2FFCF179AC7120097C40F /* NSDictionary+QueryStringBuilder.m */,
+				06D2FFD0179AC7120097C40F /* NSString+CoreExt.h */,
+				06D2FFD1179AC7120097C40F /* NSString+CoreExt.m */,
+				06D2FFD2179AC7120097C40F /* NSString+URLEncode.h */,
+				06D2FFD3179AC7120097C40F /* NSString+URLEncode.m */,
+				06D2FFD4179AC7120097C40F /* RHObjCExt.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		06D2FFD5179AC7120097C40F /* Exclude */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Exclude;
+			sourceTree = "<group>";
+		};
+		06D2FFD6179AC7120097C40F /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				06D2FFD7179AC7120097C40F /* SKProduct+CoreExt.h */,
+				06D2FFD8179AC7120097C40F /* SKProduct+CoreExt.m */,
+			);
+			path = StoreKit;
+			sourceTree = "<group>";
+		};
+		06D2FFD9179AC7120097C40F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				06D2FFDA179AC7120097C40F /* RHObjCExtUIKit.h */,
+				06D2FFDB179AC7120097C40F /* UIImage+Helper.h */,
+				06D2FFDC179AC7120097C40F /* UIImage+Helper.m */,
+				06D2FFDD179AC7120097C40F /* UIWebView+CoreExt.h */,
+				06D2FFDE179AC7120097C40F /* UIWebView+CoreExt.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +401,17 @@
 			files = (
 				06C7767C179A627A00BB5A8F /* main.m in Sources */,
 				06C77680179A627A00BB5A8F /* AppDelegate.m in Sources */,
+				06D2FFDF179AC7120097C40F /* NSArray+CoreExt.m in Sources */,
+				06D2FFE0179AC7120097C40F /* NSArray+Enumerable.m in Sources */,
+				06D2FFE1179AC7120097C40F /* NSComparisonPredicate+CoreExt.m in Sources */,
+				06D2FFE2179AC7120097C40F /* NSDictionary+CoreExt.m in Sources */,
+				06D2FFE3179AC7120097C40F /* NSDictionary+Enumerable.m in Sources */,
+				06D2FFE4179AC7120097C40F /* NSDictionary+QueryStringBuilder.m in Sources */,
+				06D2FFE5179AC7120097C40F /* NSString+CoreExt.m in Sources */,
+				06D2FFE6179AC7120097C40F /* NSString+URLEncode.m in Sources */,
+				06D2FFE7179AC7120097C40F /* SKProduct+CoreExt.m in Sources */,
+				06D2FFE8179AC7120097C40F /* UIImage+Helper.m in Sources */,
+				06D2FFE9179AC7120097C40F /* UIWebView+CoreExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
