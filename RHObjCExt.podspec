@@ -15,12 +15,11 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
 
   s.subspec 'Core' do |ss|
-    ss.source_files = 'Classes'
-    ss.exclude_files = 'Classes/Exclude', 'Classes/SKProduct+CoreExt.{h,m}'
+    ss.source_files = 'Classes/Core'
   end
 
   s.subspec 'StoreKit' do |ss|
-    ss.source_files = 'Classes/SKProduct+CoreExt.{h,m}'
+    ss.source_files = 'Classes/StoreKit'
     ss.frameworks = 'StoreKit'
     ss.dependency 'RHObjCExt/Core'
   end
