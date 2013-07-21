@@ -67,12 +67,6 @@ tramp
 *.sublime-workspace
 
 
-# Added by gemignore. Snippet 'Global/Linux'
-.*
-!.gitignore
-*~
-
-
 # Added by gemignore. Snippet 'Global/OSX'
 .DS_Store
 .AppleDouble
