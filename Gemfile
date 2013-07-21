@@ -1,3 +1,4 @@
+# coding: utf-8
 source "https://rubygems.org"
 
 if Gem::Version.new(RUBY_VERSION.dup) >= Gem::Version.new("2.0.0")
