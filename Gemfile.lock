@@ -36,5 +36,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cocoapods
-  rake
+  cocoapods (~> 0.22.2)
+  rake (~> 10.1.0)

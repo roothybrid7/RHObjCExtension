@@ -1,5 +1,10 @@
-source 'https://rubygems.org'
-ruby '2.0.0'
+source "https://rubygems.org"
 
-gem 'rake'
-gem 'cocoapods'
+if Gem::Version.new(RUBY_VERSION.dup) < Gem::Version.new("2.0.0")
+  exit(0)
+end
+
+group :development, :test do
+    gem "rake", "~> 10.1.0"
+    gem "cocoapods", "~> 0.22.2"
+end
