@@ -1,6 +1,6 @@
 # RHObjCExt
 
-![Build](https://travis-ci.org/roothybrid7/RHObjCExt.png?branch=master)
+[![Build Status](https://travis-ci.org/roothybrid7/RHObjCExt.png?branch=master)](https://travis-ci.org/roothybrid7/RHObjCExt)
 
 Objective-C Extension using Category.
 

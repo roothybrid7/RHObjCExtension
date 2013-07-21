@@ -3,7 +3,6 @@ before_install:
   - brew update
   - brew install xctool
   - gem update --system
-  - gem --version
   - gem install rake cocoapods
   - pod setup && pod install
 script: rake test --trace
