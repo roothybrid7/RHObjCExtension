@@ -1,5 +1,5 @@
 task :run_test do
-  $test_success = system("xctool -workspace RHObjCExt.xcworkspace -scheme RHObjCExt build test -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO")
+  $test_success = system("xctool build test ONLY_ACTIVE_ARCH=NO")
 end
 
 desc 'Run all tests'

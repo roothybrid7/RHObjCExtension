@@ -1,0 +1,6 @@
+[
+  "-workspace", "RHObjCExt.xcworkspace",
+  "-scheme", "RHObjCExt",
+  "-configuration", "Debug",
+  "-sdk", "iphonesimulator"
+]
