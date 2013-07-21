@@ -1,11 +1,10 @@
 language: objective-c
 before_install:
   - brew update
-  - brew install xctool --HEAD
+  - brew install xctool
   - gem update --system
   - gem --version
-  - gem install bundler
-  - bundle install --path=vendor/bundle
-  - bundle exec pod setup && bundle exec pod install
-script: bundle exec rake test --trace
+  - gem install rake cocoapods
+  - pod setup && pod install
+script: rake test --trace
 

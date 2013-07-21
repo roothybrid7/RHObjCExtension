@@ -1,7 +1,8 @@
 task :run_test do
-  $test_success = system('xctool -workspace RHObjCExt.xcworkspace -scheme RHObjCExt build -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO')
-  $test_success = system('xctool -workspace RHObjCExt.xcworkspace -scheme RHObjCExt build-tests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO')
-  $test_success = system('xctool -workspace RHObjCExt.xcworkspace -scheme RHObjCExt test -test-sdk iphonesimulator ONLY_ACTIVE_ARCH=NO')
+  $test_success = system('xctool -workspace RHObjCExt.xcworkspace -scheme RHObjCExt build test')
+#  $test_success = system('xctool -workspace RHObjCExt.xcworkspace -scheme RHObjCExt build -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO')
+#  $test_success = system('xctool -workspace RHObjCExt.xcworkspace -scheme RHObjCExt build-tests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO')
+#  $test_success = system('xctool -workspace RHObjCExt.xcworkspace -scheme RHObjCExt test -test-sdk iphonesimulator ONLY_ACTIVE_ARCH=NO')
 end
 
 desc 'Run all tests'
