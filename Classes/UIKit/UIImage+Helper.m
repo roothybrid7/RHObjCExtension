@@ -10,10 +10,22 @@
 
 @implementation UIImage (Helper)
 
-+ (UIImage * )imageNamed:(NSString *)imageName scaleToFillInView:(UIView *)view
++ (UIImage *)imageNamed:(NSString *)imageName scaleToFillInView:(UIView *)view
 {
     UIGraphicsBeginImageContextWithOptions(view.frame.size, NO, [[UIScreen mainScreen] scale]);
     [[UIImage imageNamed:imageName] drawInRect:view.bounds];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+
++ (UIImage *)imageWithUIColor:(UIColor *)color
+{
+    CGRect rect = CGRectMake(0, 0, 1, 1);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef contextRef = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(contextRef, [color CGColor]);
+    CGContextFillRect(contextRef, rect);
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return image;
