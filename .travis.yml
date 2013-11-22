@@ -5,5 +5,5 @@ before_install:
   - gem update --system
   - gem install rake cocoapods
   - pod setup && pod install
-script: rake test --trace
+script: bundle exec rake test --trace
 
