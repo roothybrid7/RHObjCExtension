@@ -34,6 +34,9 @@
 		06D7C343179AC7E500C6F5D1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06D7C342179AC7E500C6F5D1 /* StoreKit.framework */; };
 		06D7C346179AD63900C6F5D1 /* NSArrayCoreExtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D7C345179AD63900C6F5D1 /* NSArrayCoreExtTests.m */; };
 		117EC244F0BD4604B24A29E1 /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC8AB937F3F43D6A1E3ED23 /* libPods-test.a */; };
+		C20AD320183F671500452CCC /* UIImage+HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20AD31F183F671500452CCC /* UIImage+HelperTests.m */; };
+		C21A40EB183F7168007A274C /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C21A40EA183F7168007A274C /* image.jpg */; };
+		C21A40EC183F7179007A274C /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C21A40EA183F7168007A274C /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +97,8 @@
 		06D7C345179AD63900C6F5D1 /* NSArrayCoreExtTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayCoreExtTests.m; sourceTree = "<group>"; };
 		53746DEAF9E845C59B8191D9 /* Pods-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = SOURCE_ROOT; };
 		6AC8AB937F3F43D6A1E3ED23 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20AD31F183F671500452CCC /* UIImage+HelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HelperTests.m"; sourceTree = "<group>"; };
+		C21A40EA183F7168007A274C /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +174,7 @@
 		06C77676179A627A00BB5A8F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C21A40EA183F7168007A274C /* image.jpg */,
 				06C77677179A627A00BB5A8F /* RHObjCExt-Info.plist */,
 				06C77678179A627A00BB5A8F /* InfoPlist.strings */,
 				06C7767B179A627A00BB5A8F /* main.m */,
@@ -186,6 +192,7 @@
 				06C77694179A627A00BB5A8F /* Supporting Files */,
 				06D7C344179AD63900C6F5D1 /* NSArrayCoreExtTests.h */,
 				06D7C345179AD63900C6F5D1 /* NSArrayCoreExtTests.m */,
+				C20AD31F183F671500452CCC /* UIImage+HelperTests.m */,
 			);
 			path = RHObjCExtTests;
 			sourceTree = "<group>";
@@ -340,6 +347,7 @@
 				06C77682179A627A00BB5A8F /* Default.png in Resources */,
 				06C77684179A627A00BB5A8F /* Default@2x.png in Resources */,
 				06C77686179A627A00BB5A8F /* Default-568h@2x.png in Resources */,
+				C21A40EB183F7168007A274C /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06C77698179A627A00BB5A8F /* InfoPlist.strings in Resources */,
+				C21A40EC183F7179007A274C /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D7C346179AD63900C6F5D1 /* NSArrayCoreExtTests.m in Sources */,
+				C20AD320183F671500452CCC /* UIImage+HelperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

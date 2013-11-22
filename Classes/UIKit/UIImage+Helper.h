@@ -16,6 +16,12 @@
  */
 + (UIImage * )imageNamed:(NSString *)imageName scaleToFillInView:(UIView *)view;
 
+/*!
+    @method imageWithUIColor:
+    @result An image created by UIColor.
+ */
++ (UIImage *)imageWithUIColor:(UIColor *)color;
+
 - (UIImage *)resizePerRate:(CGFloat)rate;
 
 @end
