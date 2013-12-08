@@ -1,4 +1,6 @@
 language: objective-c
+xcode_project: RHObjCExt.xcodeproj
+xcode_scheme: RHObjCExt
 before_install:
   - brew update
     #  - brew install xctool >/dev/null
