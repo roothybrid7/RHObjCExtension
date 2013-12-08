@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RHObjCExt"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A iOS Objective-C Extensions."
   s.homepage     = "https://github.com/roothybrid7/RHObjCExt"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
