@@ -34,6 +34,20 @@
                ReferencedContainer = "container:RHObjCExt.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C21E082A1854695100D98064"
+               BuildableName = "RHObjCExtLogicTests.octest"
+               BlueprintName = "RHObjCExtLogicTests"
+               ReferencedContainer = "container:RHObjCExt.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -43,7 +57,7 @@
       buildConfiguration = "Debug">
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06C7768B179A627A00BB5A8F"

@@ -36,4 +36,16 @@
     return queryString;
 }
 
++ (NSDictionary *)dictionaryFromQueryString:(NSString *)query
+{
+    NSMutableDictionary *queryDictionary = [[[self alloc] init] mutableCopy];
+    CFStringRef clean = CFURLCreateStringByReplacingPercentEscapes(kCFAllocatorDefault, (CFStringRef)query, CFSTR(""));
+    NSString *cleanQuery = (NSString *)CFBridgingRelease(clean);
+    [[cleanQuery componentsSeparatedByString:@"&"] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        NSArray *chunks = [obj componentsSeparatedByString:@"="];
+        [queryDictionary setObject:chunks.lastObject forKey:chunks.firstObject];
+    }];
+    return queryDictionary;
+}
+
 @end

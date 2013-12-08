@@ -11,5 +11,6 @@
 @interface NSDictionary (QueryStringBuilder)
 
 - (NSString *)queryString;
++ (NSDictionary *)dictionaryFromQueryString:(NSString *)query;
 
 @end
