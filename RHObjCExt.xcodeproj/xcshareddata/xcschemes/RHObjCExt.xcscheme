@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3794F7AF285748DC883B1382"
+               BlueprintIdentifier = "D84E260FE07149CD94EE4567"
                BuildableName = "libPods-test.a"
                BlueprintName = "Pods-test"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -49,6 +49,16 @@
                BlueprintIdentifier = "06C7768B179A627A00BB5A8F"
                BuildableName = "RHObjCExtTests.octest"
                BlueprintName = "RHObjCExtTests"
+               ReferencedContainer = "container:RHObjCExt.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "C21E082A1854695100D98064"
+               BuildableName = "RHObjCExtLogicTests.octest"
+               BlueprintName = "RHObjCExtLogicTests"
                ReferencedContainer = "container:RHObjCExt.xcodeproj">
             </BuildableReference>
          </TestableReference>
