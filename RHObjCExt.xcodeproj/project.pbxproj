@@ -37,6 +37,7 @@
 		C20AD320183F671500452CCC /* UIImage+HelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C20AD31F183F671500452CCC /* UIImage+HelperTests.m */; };
 		C21A40EB183F7168007A274C /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C21A40EA183F7168007A274C /* image.jpg */; };
 		C21A40EC183F7179007A274C /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C21A40EA183F7168007A274C /* image.jpg */; };
+		C21E081A18545A6E00D98064 /* NSDictionaryQueryBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E081918545A6E00D98064 /* NSDictionaryQueryBuilderTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		6AC8AB937F3F43D6A1E3ED23 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20AD31F183F671500452CCC /* UIImage+HelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HelperTests.m"; sourceTree = "<group>"; };
 		C21A40EA183F7168007A274C /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		C21E081918545A6E00D98064 /* NSDictionaryQueryBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryQueryBuilderTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 				06C77694179A627A00BB5A8F /* Supporting Files */,
 				06D7C344179AD63900C6F5D1 /* NSArrayCoreExtTests.h */,
 				06D7C345179AD63900C6F5D1 /* NSArrayCoreExtTests.m */,
+				C21E081918545A6E00D98064 /* NSDictionaryQueryBuilderTests.m */,
 				C20AD31F183F671500452CCC /* UIImage+HelperTests.m */,
 			);
 			path = RHObjCExtTests;
@@ -434,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06D7C346179AD63900C6F5D1 /* NSArrayCoreExtTests.m in Sources */,
+				C21E081A18545A6E00D98064 /* NSDictionaryQueryBuilderTests.m in Sources */,
 				C20AD320183F671500452CCC /* UIImage+HelperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
