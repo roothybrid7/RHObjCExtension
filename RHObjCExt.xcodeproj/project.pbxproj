@@ -53,6 +53,7 @@
 		C21E084F185469B400D98064 /* NSArrayCoreExtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D7C345179AD63900C6F5D1 /* NSArrayCoreExtTests.m */; };
 		C21E0850185469B400D98064 /* NSDictionaryQueryBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E081918545A6E00D98064 /* NSDictionaryQueryBuilderTests.m */; };
 		C22AF95D18DC97F50008DE73 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFDC179AC7120097C40F /* UIImage+Helper.m */; };
+		C22AF95E18DCA2AF0008DE73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C77673179A627A00BB5A8F /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -148,6 +149,7 @@
 				06C7768E179A627A00BB5A8F /* SenTestingKit.framework in Frameworks */,
 				06C7768F179A627A00BB5A8F /* UIKit.framework in Frameworks */,
 				06C77690179A627A00BB5A8F /* Foundation.framework in Frameworks */,
+				C22AF95E18DCA2AF0008DE73 /* CoreGraphics.framework in Frameworks */,
 				117EC244F0BD4604B24A29E1 /* libPods-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
