@@ -5,7 +5,7 @@ before_install:
   - brew update
     #  - brew install xctool >/dev/null
   - gem update --system
-  - gem install rake cocoapods
+  - gem install rake cocoapods xcpretty
   - pod setup && pod install
 script: bundle exec rake test --trace
 
