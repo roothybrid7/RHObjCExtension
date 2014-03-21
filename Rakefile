@@ -23,7 +23,7 @@ task :run_app_test do
     -scheme RHObjCExtTests \
     -configuration Debug \
     clean test \
-    ONLY_ACTIVE_ARCH=NO \
+    ONLY_ACTIVE_ARCH=YES \
     TEST_HOST= | xcpretty -c")
 end
 
