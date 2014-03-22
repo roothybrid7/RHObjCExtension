@@ -6,5 +6,5 @@ target :test, :exclusive => true do
   link_with 'RHObjCExtTests', 'RHObjCExtLogicTests'
 
   pod 'OCMock', '~> 2.2.0'
-  pod 'Expecta', '~> 0.2.1'
+  pod 'Expecta', '~> 0.3.0'
 end
