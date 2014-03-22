@@ -49,11 +49,10 @@
 		C21E08481854696900D98064 /* NSDictionary+QueryStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFCF179AC7120097C40F /* NSDictionary+QueryStringBuilder.m */; };
 		C21E084A1854696900D98064 /* NSString+CoreExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFD1179AC7120097C40F /* NSString+CoreExt.m */; };
 		C21E084C1854696900D98064 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFD3179AC7120097C40F /* NSString+URLEncode.m */; };
-		C21E084E185469B400D98064 /* NSArrayCoreExtTests.h in Sources */ = {isa = PBXBuildFile; fileRef = 06D7C344179AD63900C6F5D1 /* NSArrayCoreExtTests.h */; };
-		C21E084F185469B400D98064 /* NSArrayCoreExtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D7C345179AD63900C6F5D1 /* NSArrayCoreExtTests.m */; };
-		C21E0850185469B400D98064 /* NSDictionaryQueryBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C21E081918545A6E00D98064 /* NSDictionaryQueryBuilderTests.m */; };
 		C22AF95D18DC97F50008DE73 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D2FFDC179AC7120097C40F /* UIImage+Helper.m */; };
 		C22AF95E18DCA2AF0008DE73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C77673179A627A00BB5A8F /* CoreGraphics.framework */; };
+		C27A000B18DD22A90069DEB3 /* NSArrayCoreExtTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A000918DD22A90069DEB3 /* NSArrayCoreExtTests.m */; };
+		C27A000C18DD22A90069DEB3 /* NSDictionaryQueryBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A000A18DD22A90069DEB3 /* NSDictionaryQueryBuilderTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,24 +73,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06C7766C179A627A00BB5A8F /* RHObjCExt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHObjCExt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C7766C179A627A00BB5A8F /* RHObjCExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHObjCExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C7766F179A627A00BB5A8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		06C77671179A627A00BB5A8F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		06C77673179A627A00BB5A8F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		06C77677179A627A00BB5A8F /* RHObjCExt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHObjCExt-Info.plist"; sourceTree = "<group>"; };
+		06C77677179A627A00BB5A8F /* RHObjCExtension-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHObjCExtension-Info.plist"; sourceTree = "<group>"; };
 		06C77679179A627A00BB5A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		06C7767B179A627A00BB5A8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		06C7767D179A627A00BB5A8F /* RHObjCExt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHObjCExt-Prefix.pch"; sourceTree = "<group>"; };
+		06C7767D179A627A00BB5A8F /* RHObjCExtension-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHObjCExtension-Prefix.pch"; sourceTree = "<group>"; };
 		06C7767E179A627A00BB5A8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		06C7767F179A627A00BB5A8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		06C77681179A627A00BB5A8F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		06C77683179A627A00BB5A8F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		06C77685179A627A00BB5A8F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		06C7768C179A627A00BB5A8F /* RHObjCExtTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHObjCExtTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C7768C179A627A00BB5A8F /* RHObjCExtensionTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHObjCExtensionTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C7768D179A627A00BB5A8F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		06C77695179A627A00BB5A8F /* RHObjCExtTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHObjCExtTests-Info.plist"; sourceTree = "<group>"; };
+		06C77695179A627A00BB5A8F /* RHObjCExtensionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHObjCExtensionTests-Info.plist"; sourceTree = "<group>"; };
 		06C77697179A627A00BB5A8F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		06D2FFBF179AC4F70097C40F /* RHObjCExtTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RHObjCExtTests-Prefix.pch"; sourceTree = "<group>"; };
+		06D2FFBF179AC4F70097C40F /* RHObjCExtensionTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RHObjCExtensionTests-Prefix.pch"; sourceTree = "<group>"; };
 		06D2FFC4179AC7120097C40F /* NSArray+CoreExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CoreExt.h"; sourceTree = "<group>"; };
 		06D2FFC5179AC7120097C40F /* NSArray+CoreExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CoreExt.m"; sourceTree = "<group>"; };
 		06D2FFC6179AC7120097C40F /* NSArray+Enumerable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Enumerable.h"; sourceTree = "<group>"; };
@@ -117,17 +116,17 @@
 		06D2FFDD179AC7120097C40F /* UIWebView+CoreExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+CoreExt.h"; sourceTree = "<group>"; };
 		06D2FFDE179AC7120097C40F /* UIWebView+CoreExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+CoreExt.m"; sourceTree = "<group>"; };
 		06D7C342179AC7E500C6F5D1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		06D7C344179AD63900C6F5D1 /* NSArrayCoreExtTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSArrayCoreExtTests.h; path = ../RHObjCExtTests/NSArrayCoreExtTests.h; sourceTree = "<group>"; };
-		06D7C345179AD63900C6F5D1 /* NSArrayCoreExtTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSArrayCoreExtTests.m; path = ../RHObjCExtTests/NSArrayCoreExtTests.m; sourceTree = "<group>"; };
 		53746DEAF9E845C59B8191D9 /* Pods-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = SOURCE_ROOT; };
 		6AC8AB937F3F43D6A1E3ED23 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20AD31F183F671500452CCC /* UIImage+HelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HelperTests.m"; sourceTree = "<group>"; };
 		C21A40EA183F7168007A274C /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
-		C21E081918545A6E00D98064 /* NSDictionaryQueryBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDictionaryQueryBuilderTests.m; path = ../RHObjCExtTests/NSDictionaryQueryBuilderTests.m; sourceTree = "<group>"; };
-		C21E082B1854695100D98064 /* RHObjCExtLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHObjCExtLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C21E08311854695100D98064 /* RHObjCExtLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHObjCExtLogicTests-Info.plist"; sourceTree = "<group>"; };
+		C21E082B1854695100D98064 /* RHObjCExtensionLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RHObjCExtensionLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C21E08311854695100D98064 /* RHObjCExtensionLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RHObjCExtensionLogicTests-Info.plist"; sourceTree = "<group>"; };
 		C21E08331854695200D98064 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C21E08371854695200D98064 /* RHObjCExtLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHObjCExtLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		C21E08371854695200D98064 /* RHObjCExtensionLogicTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RHObjCExtensionLogicTests-Prefix.pch"; sourceTree = "<group>"; };
+		C27A000818DD22A90069DEB3 /* NSArrayCoreExtTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSArrayCoreExtTests.h; sourceTree = "<group>"; };
+		C27A000918DD22A90069DEB3 /* NSArrayCoreExtTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayCoreExtTests.m; sourceTree = "<group>"; };
+		C27A000A18DD22A90069DEB3 /* NSDictionaryQueryBuilderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryQueryBuilderTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,9 +171,9 @@
 			isa = PBXGroup;
 			children = (
 				06D2FFC2179AC7120097C40F /* Classes */,
-				06C77675179A627A00BB5A8F /* RHObjCExt */,
-				06C77693179A627A00BB5A8F /* RHObjCExtTests */,
-				C21E082F1854695100D98064 /* RHObjCExtLogicTests */,
+				06C77675179A627A00BB5A8F /* RHObjCExtension */,
+				06C77693179A627A00BB5A8F /* RHObjCExtensionTests */,
+				C21E082F1854695100D98064 /* RHObjCExtensionLogicTests */,
 				06C7766E179A627A00BB5A8F /* Frameworks */,
 				06C7766D179A627A00BB5A8F /* Products */,
 				53746DEAF9E845C59B8191D9 /* Pods-test.xcconfig */,
@@ -184,9 +183,9 @@
 		06C7766D179A627A00BB5A8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				06C7766C179A627A00BB5A8F /* RHObjCExt.app */,
-				06C7768C179A627A00BB5A8F /* RHObjCExtTests.octest */,
-				C21E082B1854695100D98064 /* RHObjCExtLogicTests.octest */,
+				06C7766C179A627A00BB5A8F /* RHObjCExtension.app */,
+				06C7768C179A627A00BB5A8F /* RHObjCExtensionTests.octest */,
+				C21E082B1854695100D98064 /* RHObjCExtensionLogicTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,24 +203,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		06C77675179A627A00BB5A8F /* RHObjCExt */ = {
+		06C77675179A627A00BB5A8F /* RHObjCExtension */ = {
 			isa = PBXGroup;
 			children = (
 				06C7767E179A627A00BB5A8F /* AppDelegate.h */,
 				06C7767F179A627A00BB5A8F /* AppDelegate.m */,
 				06C77676179A627A00BB5A8F /* Supporting Files */,
 			);
-			path = RHObjCExt;
+			path = RHObjCExtension;
 			sourceTree = "<group>";
 		};
 		06C77676179A627A00BB5A8F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				C21A40EA183F7168007A274C /* image.jpg */,
-				06C77677179A627A00BB5A8F /* RHObjCExt-Info.plist */,
+				06C77677179A627A00BB5A8F /* RHObjCExtension-Info.plist */,
 				06C77678179A627A00BB5A8F /* InfoPlist.strings */,
 				06C7767B179A627A00BB5A8F /* main.m */,
-				06C7767D179A627A00BB5A8F /* RHObjCExt-Prefix.pch */,
+				06C7767D179A627A00BB5A8F /* RHObjCExtension-Prefix.pch */,
 				06C77681179A627A00BB5A8F /* Default.png */,
 				06C77683179A627A00BB5A8F /* Default@2x.png */,
 				06C77685179A627A00BB5A8F /* Default-568h@2x.png */,
@@ -229,21 +228,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		06C77693179A627A00BB5A8F /* RHObjCExtTests */ = {
+		06C77693179A627A00BB5A8F /* RHObjCExtensionTests */ = {
 			isa = PBXGroup;
 			children = (
 				06C77694179A627A00BB5A8F /* Supporting Files */,
 				C20AD31F183F671500452CCC /* UIImage+HelperTests.m */,
 			);
-			path = RHObjCExtTests;
+			path = RHObjCExtensionTests;
 			sourceTree = "<group>";
 		};
 		06C77694179A627A00BB5A8F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				06C77695179A627A00BB5A8F /* RHObjCExtTests-Info.plist */,
+				06C77695179A627A00BB5A8F /* RHObjCExtensionTests-Info.plist */,
 				06C77696179A627A00BB5A8F /* InfoPlist.strings */,
-				06D2FFBF179AC4F70097C40F /* RHObjCExtTests-Prefix.pch */,
+				06D2FFBF179AC4F70097C40F /* RHObjCExtensionTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -311,23 +310,23 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
-		C21E082F1854695100D98064 /* RHObjCExtLogicTests */ = {
+		C21E082F1854695100D98064 /* RHObjCExtensionLogicTests */ = {
 			isa = PBXGroup;
 			children = (
-				06D7C344179AD63900C6F5D1 /* NSArrayCoreExtTests.h */,
-				06D7C345179AD63900C6F5D1 /* NSArrayCoreExtTests.m */,
-				C21E081918545A6E00D98064 /* NSDictionaryQueryBuilderTests.m */,
+				C27A000818DD22A90069DEB3 /* NSArrayCoreExtTests.h */,
+				C27A000918DD22A90069DEB3 /* NSArrayCoreExtTests.m */,
+				C27A000A18DD22A90069DEB3 /* NSDictionaryQueryBuilderTests.m */,
 				C21E08301854695100D98064 /* Supporting Files */,
 			);
-			path = RHObjCExtLogicTests;
+			path = RHObjCExtensionLogicTests;
 			sourceTree = "<group>";
 		};
 		C21E08301854695100D98064 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C21E08311854695100D98064 /* RHObjCExtLogicTests-Info.plist */,
+				C21E08311854695100D98064 /* RHObjCExtensionLogicTests-Info.plist */,
 				C21E08321854695200D98064 /* InfoPlist.strings */,
-				C21E08371854695200D98064 /* RHObjCExtLogicTests-Prefix.pch */,
+				C21E08371854695200D98064 /* RHObjCExtensionLogicTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -335,9 +334,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		06C7766B179A627A00BB5A8F /* RHObjCExt */ = {
+		06C7766B179A627A00BB5A8F /* RHObjCExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06C7769E179A627A00BB5A8F /* Build configuration list for PBXNativeTarget "RHObjCExt" */;
+			buildConfigurationList = 06C7769E179A627A00BB5A8F /* Build configuration list for PBXNativeTarget "RHObjCExtension" */;
 			buildPhases = (
 				06C77668179A627A00BB5A8F /* Sources */,
 				06C77669179A627A00BB5A8F /* Frameworks */,
@@ -347,14 +346,14 @@
 			);
 			dependencies = (
 			);
-			name = RHObjCExt;
+			name = RHObjCExtension;
 			productName = RHObjCExt;
-			productReference = 06C7766C179A627A00BB5A8F /* RHObjCExt.app */;
+			productReference = 06C7766C179A627A00BB5A8F /* RHObjCExtension.app */;
 			productType = "com.apple.product-type.application";
 		};
-		06C7768B179A627A00BB5A8F /* RHObjCExtTests */ = {
+		06C7768B179A627A00BB5A8F /* RHObjCExtensionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 06C776A1179A627A00BB5A8F /* Build configuration list for PBXNativeTarget "RHObjCExtTests" */;
+			buildConfigurationList = 06C776A1179A627A00BB5A8F /* Build configuration list for PBXNativeTarget "RHObjCExtensionTests" */;
 			buildPhases = (
 				446CF0ED9660499D9E8E3A3C /* Check Pods Manifest.lock */,
 				06C77687179A627A00BB5A8F /* Sources */,
@@ -368,14 +367,14 @@
 			dependencies = (
 				06C77692179A627A00BB5A8F /* PBXTargetDependency */,
 			);
-			name = RHObjCExtTests;
+			name = RHObjCExtensionTests;
 			productName = RHObjCExtTests;
-			productReference = 06C7768C179A627A00BB5A8F /* RHObjCExtTests.octest */;
+			productReference = 06C7768C179A627A00BB5A8F /* RHObjCExtensionTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		C21E082A1854695100D98064 /* RHObjCExtLogicTests */ = {
+		C21E082A1854695100D98064 /* RHObjCExtensionLogicTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C21E083C1854695200D98064 /* Build configuration list for PBXNativeTarget "RHObjCExtLogicTests" */;
+			buildConfigurationList = C21E083C1854695200D98064 /* Build configuration list for PBXNativeTarget "RHObjCExtensionLogicTests" */;
 			buildPhases = (
 				F6B8510FC4AE42E4815E3A05 /* Check Pods Manifest.lock */,
 				C21E08271854695100D98064 /* Sources */,
@@ -388,9 +387,9 @@
 			dependencies = (
 				C21E08391854695200D98064 /* PBXTargetDependency */,
 			);
-			name = RHObjCExtLogicTests;
+			name = RHObjCExtensionLogicTests;
 			productName = RHObjCExtLogicTests;
-			productReference = C21E082B1854695100D98064 /* RHObjCExtLogicTests.octest */;
+			productReference = C21E082B1854695100D98064 /* RHObjCExtensionLogicTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -399,6 +398,7 @@
 		06C77664179A627A00BB5A8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RHO;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = roothybrid7;
 				TargetAttributes = {
@@ -407,7 +407,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 06C77667179A627A00BB5A8F /* Build configuration list for PBXProject "RHObjCExt" */;
+			buildConfigurationList = 06C77667179A627A00BB5A8F /* Build configuration list for PBXProject "RHObjCExtension" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -419,9 +419,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				06C7766B179A627A00BB5A8F /* RHObjCExt */,
-				06C7768B179A627A00BB5A8F /* RHObjCExtTests */,
-				C21E082A1854695100D98064 /* RHObjCExtLogicTests */,
+				06C7766B179A627A00BB5A8F /* RHObjCExtension */,
+				06C7768B179A627A00BB5A8F /* RHObjCExtensionTests */,
+				C21E082A1854695100D98064 /* RHObjCExtensionLogicTests */,
 			);
 		};
 /* End PBXProject section */
@@ -568,9 +568,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C21E084E185469B400D98064 /* NSArrayCoreExtTests.h in Sources */,
-				C21E084F185469B400D98064 /* NSArrayCoreExtTests.m in Sources */,
-				C21E0850185469B400D98064 /* NSDictionaryQueryBuilderTests.m in Sources */,
 				C21E083E1854696900D98064 /* NSArray+CoreExt.m in Sources */,
 				C21E08401854696900D98064 /* NSArray+Enumerable.m in Sources */,
 				C21E08421854696900D98064 /* NSComparisonPredicate+CoreExt.m in Sources */,
@@ -579,6 +576,8 @@
 				C21E08481854696900D98064 /* NSDictionary+QueryStringBuilder.m in Sources */,
 				C21E084A1854696900D98064 /* NSString+CoreExt.m in Sources */,
 				C21E084C1854696900D98064 /* NSString+URLEncode.m in Sources */,
+				C27A000B18DD22A90069DEB3 /* NSArrayCoreExtTests.m in Sources */,
+				C27A000C18DD22A90069DEB3 /* NSDictionaryQueryBuilderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,12 +586,12 @@
 /* Begin PBXTargetDependency section */
 		06C77692179A627A00BB5A8F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06C7766B179A627A00BB5A8F /* RHObjCExt */;
+			target = 06C7766B179A627A00BB5A8F /* RHObjCExtension */;
 			targetProxy = 06C77691179A627A00BB5A8F /* PBXContainerItemProxy */;
 		};
 		C21E08391854695200D98064 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 06C7766B179A627A00BB5A8F /* RHObjCExt */;
+			target = 06C7766B179A627A00BB5A8F /* RHObjCExtension */;
 			targetProxy = C21E08381854695200D98064 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -685,9 +684,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RHObjCExt/RHObjCExt-Prefix.pch";
-				INFOPLIST_FILE = "RHObjCExt/RHObjCExt-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RHObjCExtension/RHObjCExtension-Prefix.pch";
+				INFOPLIST_FILE = "RHObjCExtension/RHObjCExtension-Info.plist";
+				PRODUCT_NAME = RHObjCExtension;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -696,9 +695,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RHObjCExt/RHObjCExt-Prefix.pch";
-				INFOPLIST_FILE = "RHObjCExt/RHObjCExt-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RHObjCExtension/RHObjCExtension-Prefix.pch";
+				INFOPLIST_FILE = "RHObjCExtension/RHObjCExtension-Info.plist";
+				PRODUCT_NAME = RHObjCExtension;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -707,15 +706,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53746DEAF9E845C59B8191D9 /* Pods-test.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHObjCExt.app/RHObjCExt";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHObjCExtension.app/RHObjCExtension";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RHObjCExtTests/RHObjCExtTests-Prefix.pch";
-				INFOPLIST_FILE = "RHObjCExtTests/RHObjCExtTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RHObjCExtensionTests/RHObjCExtensionTests-Prefix.pch";
+				INFOPLIST_FILE = "RHObjCExtensionTests/RHObjCExtensionTests-Info.plist";
+				PRODUCT_NAME = RHObjCExtensionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -725,15 +724,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53746DEAF9E845C59B8191D9 /* Pods-test.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHObjCExt.app/RHObjCExt";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RHObjCExtension.app/RHObjCExtension";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RHObjCExtTests/RHObjCExtTests-Prefix.pch";
-				INFOPLIST_FILE = "RHObjCExtTests/RHObjCExtTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RHObjCExtensionTests/RHObjCExtensionTests-Prefix.pch";
+				INFOPLIST_FILE = "RHObjCExtensionTests/RHObjCExtensionTests-Info.plist";
+				PRODUCT_NAME = RHObjCExtensionTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -755,7 +754,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RHObjCExtLogicTests/RHObjCExtLogicTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "RHObjCExtensionLogicTests/RHObjCExtensionLogicTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -764,9 +763,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "RHObjCExtLogicTests/RHObjCExtLogicTests-Info.plist";
+				INFOPLIST_FILE = "RHObjCExtensionLogicTests/RHObjCExtensionLogicTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RHObjCExtensionLogicTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -789,14 +788,14 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RHObjCExtLogicTests/RHObjCExtLogicTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "RHObjCExtensionLogicTests/RHObjCExtensionLogicTests-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = "RHObjCExtLogicTests/RHObjCExtLogicTests-Info.plist";
+				INFOPLIST_FILE = "RHObjCExtensionLogicTests/RHObjCExtensionLogicTests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RHObjCExtensionLogicTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -805,7 +804,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		06C77667179A627A00BB5A8F /* Build configuration list for PBXProject "RHObjCExt" */ = {
+		06C77667179A627A00BB5A8F /* Build configuration list for PBXProject "RHObjCExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06C7769C179A627A00BB5A8F /* Debug */,
@@ -814,7 +813,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06C7769E179A627A00BB5A8F /* Build configuration list for PBXNativeTarget "RHObjCExt" */ = {
+		06C7769E179A627A00BB5A8F /* Build configuration list for PBXNativeTarget "RHObjCExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06C7769F179A627A00BB5A8F /* Debug */,
@@ -823,7 +822,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		06C776A1179A627A00BB5A8F /* Build configuration list for PBXNativeTarget "RHObjCExtTests" */ = {
+		06C776A1179A627A00BB5A8F /* Build configuration list for PBXNativeTarget "RHObjCExtensionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				06C776A2179A627A00BB5A8F /* Debug */,
@@ -832,7 +831,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C21E083C1854695200D98064 /* Build configuration list for PBXNativeTarget "RHObjCExtLogicTests" */ = {
+		C21E083C1854695200D98064 /* Build configuration list for PBXNativeTarget "RHObjCExtensionLogicTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C21E083A1854695200D98064 /* Debug */,

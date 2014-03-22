@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A549856D7CE434C8A417151"
+               BlueprintIdentifier = "66F516F133E34078977B151E"
                BuildableName = "libPods-test.a"
                BlueprintName = "Pods-test"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06C7766B179A627A00BB5A8F"
-               BuildableName = "RHObjCExt.app"
-               BlueprintName = "RHObjCExt"
-               ReferencedContainer = "container:RHObjCExt.xcodeproj">
+               BuildableName = "RHObjCExtension.app"
+               BlueprintName = "RHObjCExtension"
+               ReferencedContainer = "container:RHObjCExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C21E082A1854695100D98064"
-               BuildableName = "RHObjCExtLogicTests.octest"
-               BlueprintName = "RHObjCExtLogicTests"
-               ReferencedContainer = "container:RHObjCExt.xcodeproj">
+               BuildableName = "RHObjCExtensionLogicTests.octest"
+               BlueprintName = "RHObjCExtensionLogicTests"
+               ReferencedContainer = "container:RHObjCExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06C7768B179A627A00BB5A8F"
-               BuildableName = "RHObjCExtTests.octest"
-               BlueprintName = "RHObjCExtTests"
-               ReferencedContainer = "container:RHObjCExt.xcodeproj">
+               BuildableName = "RHObjCExtensionTests.octest"
+               BlueprintName = "RHObjCExtensionTests"
+               ReferencedContainer = "container:RHObjCExtension.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -71,9 +71,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C21E082A1854695100D98064"
-               BuildableName = "RHObjCExtLogicTests.octest"
-               BlueprintName = "RHObjCExtLogicTests"
-               ReferencedContainer = "container:RHObjCExt.xcodeproj">
+               BuildableName = "RHObjCExtensionLogicTests.octest"
+               BlueprintName = "RHObjCExtensionLogicTests"
+               ReferencedContainer = "container:RHObjCExtension.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -81,9 +81,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06C7766B179A627A00BB5A8F"
-            BuildableName = "RHObjCExt.app"
-            BlueprintName = "RHObjCExt"
-            ReferencedContainer = "container:RHObjCExt.xcodeproj">
+            BuildableName = "RHObjCExtension.app"
+            BlueprintName = "RHObjCExtension"
+            ReferencedContainer = "container:RHObjCExtension.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -100,9 +100,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06C7766B179A627A00BB5A8F"
-            BuildableName = "RHObjCExt.app"
-            BlueprintName = "RHObjCExt"
-            ReferencedContainer = "container:RHObjCExt.xcodeproj">
+            BuildableName = "RHObjCExtension.app"
+            BlueprintName = "RHObjCExtension"
+            ReferencedContainer = "container:RHObjCExtension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -118,9 +118,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "06C7766B179A627A00BB5A8F"
-            BuildableName = "RHObjCExt.app"
-            BlueprintName = "RHObjCExt"
-            ReferencedContainer = "container:RHObjCExt.xcodeproj">
+            BuildableName = "RHObjCExtension.app"
+            BlueprintName = "RHObjCExtension"
+            ReferencedContainer = "container:RHObjCExtension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

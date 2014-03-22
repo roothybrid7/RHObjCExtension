@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06C7768B179A627A00BB5A8F"
-               BuildableName = "RHObjCExtTests.octest"
-               BlueprintName = "RHObjCExtTests"
-               ReferencedContainer = "container:RHObjCExt.xcodeproj">
+               BuildableName = "RHObjCExtensionTests.octest"
+               BlueprintName = "RHObjCExtensionTests"
+               ReferencedContainer = "container:RHObjCExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "06C7768B179A627A00BB5A8F"
-               BuildableName = "RHObjCExtTests.octest"
-               BlueprintName = "RHObjCExtTests"
-               ReferencedContainer = "container:RHObjCExt.xcodeproj">
+               BuildableName = "RHObjCExtensionTests.octest"
+               BlueprintName = "RHObjCExtensionTests"
+               ReferencedContainer = "container:RHObjCExtension.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
