@@ -19,7 +19,7 @@ end
 
 task :run_app_test do
   $test_success &= system("xcodebuild \
-    -destination='platform=android,OS=hoge' \
+    -destination='platform=android,name=spam' \
     -workspace #{WORKSPACE} \
     -scheme RHObjCExtensionTests \
     -configuration Debug \
