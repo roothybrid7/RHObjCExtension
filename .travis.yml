@@ -8,5 +8,5 @@ before_install:
   - gem install cocoapods
   - bundle install
   - pod install
-script: bundle exec rake run_app_test SDK=hoge --trace
+script: bundle exec rake run_app_test --trace
 
