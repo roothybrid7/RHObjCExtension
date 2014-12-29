@@ -9,5 +9,9 @@ before_install:
   - bundle install
   - pod install
   - xcodebuild -showsdks
-script: bundle exec rake run_app_test --trace
+script: bundle exec rake $ACTION
+env:
+  matrix:
+    - ACTION="run_app_test SDK=iphoneos8.1"
+    - ACTION="run_logic_test"
 
